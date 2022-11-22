@@ -32,7 +32,7 @@
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('https://kmdrozdov.github.io/test_pwa/cdn/sw.js')
+            .register('./test_pwa/sw.js')
             .catch(() => {});
 
         if (s2s !== null) {
