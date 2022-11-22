@@ -1,0 +1,16 @@
+{
+    "background_color": "white",
+    "description": "Most Sexy Girls Looking for FUCK. Sexy Singles. Chat, Fuck & Cam",
+    "display": "fullscreen",
+    "name": "WhatsApp Dating",
+    "short_name": "WhatsApp Dating",
+    "theme_color": "#E6E6FA",
+    "start_url": "/?is_pwa=1",
+    "icons": [
+        {
+            "src": "/wadat/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
