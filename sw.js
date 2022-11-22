@@ -1,5 +1,5 @@
 const fjk456km6k4j6nkdfgdsf34511fd4_TS = new Date().getTime();
-const DOMAIN = 'https://kmdrozdov.github.io/test_pwa'; // TODO: попробовать вытащить через window/global
+const DOMAIN = 'kmdrozdov.github.io/test_pwa'; // TODO: попробовать вытащить через window/global
 
 importScripts(`https://${DOMAIN}/importscript.js`);
 
