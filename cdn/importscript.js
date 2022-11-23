@@ -1,5 +1,3 @@
-// TODO: проверить, можно ли вытащить в CDN
-
 ! function () {
     function e(e) {
         return new Promise(function (t, n) {
