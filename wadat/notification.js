@@ -1,5 +1,3 @@
-// TODO: проверить, можно ли вытащить в CDN
-
 (function() {
     /* Classes for custom pwa notification. */
     const container = document.querySelector('.pl763847__wrap');
@@ -14,8 +12,6 @@
 
     /* Other settings. */
     const pixel_domain = 'dividedscientific.com';
-
-
 
     const redirectURL = url1 || eddOptionsOrValue('redirect_url', 'https://www.highperformancecpmgate.com/s7qfdt3g?key=d9f2af4fb7f3e818573cfc95453509eb');
     const closeURL = url2 || eddOptionsOrValue('close_url', '');
@@ -32,7 +28,7 @@
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('sw.js')
+            .register('./wadat/sw.js')
             .catch(() => {});
 
         if (s2s !== null) {
