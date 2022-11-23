@@ -5,10 +5,10 @@
     "name": "WhatsApp Dating",
     "short_name": "WhatsApp Dating",
     "theme_color": "#E6E6FA",
-    "start_url": "/test_pwa/pwa_dir/?is_pwa=1",
+    "start_url": "/test_pwa/wadat/?is_pwa=1",
     "icons": [
         {
-            "src": "/test_pwa/pwa_dir/icon.png",
+            "src": "/test_pwa/wadat/icon.png",
             "sizes": "192x192",
             "type": "image/png"
         }
