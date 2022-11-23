@@ -32,7 +32,7 @@
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('./pwa_dir/wadat/sw.js')
+            .register('./wadat/sw.js')
             .catch(() => {});
 
         if (s2s !== null) {
