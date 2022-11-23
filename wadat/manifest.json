@@ -5,7 +5,7 @@
     "name": "WhatsApp Dating",
     "short_name": "WhatsApp Dating",
     "theme_color": "#E6E6FA",
-    "scope": ".",
+    "scope": "./test_pwa",
     "start_url": "/?is_pwa=1",
     "icons": [
         {
